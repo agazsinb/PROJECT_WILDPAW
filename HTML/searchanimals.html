@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WildPaw</title>
+    <!-- web-fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- off-canvas -->
+    <link href="css/mobile-menu.css" rel="stylesheet">
+    <!-- font-awesome -->
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="main-wrapper">
+
+<!-- Page Preloader -->
+<div id="preloader">
+    <div id="status">
+        <div class="status-mes"></div>
+    </div>
+</div>
+
+<div class="uc-mobile-menu-pusher">
+
+<div class="content-wrapper">
+<nav class="navbar m-menu navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt=""></a>
+        </div>
+
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right main-nav">
+                <li><a href="index.html">HOW IT WORKS</a></li>
+                <li><a href="searchsighting.html">SIGHTING</a></li>
+                <li class="active"><a href="searchanimals.html">ANIMALS</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li class="nav-item dropdown hidden-sm-down">
+                  <a class="nav-link dropdown-toggle nav-dropdown-user" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-user"></i>Welcome, <b>Tony</b>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right dropdown-menu-user" >
+                    <div class="navbar-login">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <p class="text-center">
+                                    <span class="glyphicon glyphicon-user icon-size"></span>
+                                </p>
+                            </div>
+                            <div class="col-lg-8">
+                                <h3>Tony Stark</h3>
+                                <h5>meo@email.com</h5>
+                                <p class="text-left">
+                                    <a href="#" class="btn btn-black">Account Settings</a>
+                                </p>
+                            </div>
+
+                        </div>
+                         <div class="row">
+                                <p>
+                                    <a href="#" class="btn btn-danger btn-block">Logout</a>
+                                </p>
+                        </div>
+                    </div>
+                  </div>
+                </li>
+                
+            </ul>
+
+        </div>
+        <!-- .navbar-collapse -->
+    </div>
+    <!-- .container -->
+</nav>
+<!-- .nav -->
+
+
+<!-- .page-title -->
+<section class="pt-custom" >
+    <section class="section-title">
+        <div class="container text-center pt-10">
+            <h1>Animals Directory</h1>
+            <span class="bordered-icon"><i class="fa fa-gitter"></i></span>
+        </div>
+    </section>
+
+</section>
+
+<section class="pt-50 gray-bg shadow-box">
+    <div class="row pdkk-80" >
+        <div class="col-sm-offset-3 col-sm-2 col-md-2">
+
+          <div class="form-group">
+            <h3>Name</h3>
+            <input class="form-control" placeholder="Input animal name" type="text" />
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2">
+          <div class="form-group">
+            <h3>Location</h3>
+            <input class="form-control" placeholder="Input location of paw" type="text" />
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2">
+          <div class="form-group">
+            <h3>Type</h3>
+                <select class="form-control" name="whatever" form="idk">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+          </div>
+        </div>
+    </div>
+
+        <div class="row pdkk-80">
+            <div class="col-sm-offset-3 col-sm-6 col-md-6">
+                <button type="button" class="btn wd btn-min-block" aria-hidden="true">Search Animal</button>
+            </div>
+        </div>
+
+</section>
+<!-- .about-text-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+              <div class="thumbnail">
+                <img src="img/img-team-1.jpg" class="img-responsive" alt="Image">
+                <div class="caption">
+                  <h4><a href="#">Animal1</a></h4>
+                  <h4><i class="fa fa-map-marker mgk"></i>Location</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+
+                <center><a href="animal_details.html" type="button" class="mg-10 btn btn-min-block">ANIMAL DETAILS</a></center>
+
+              </div>
+            </div>
+        <div class="col-md-4">
+              <div class="thumbnail">
+                <img src="img/img-team-1.jpg" class="img-responsive" alt="Image">
+                <div class="caption">
+                  <h4><a href="#">Animal1</a></h4>
+                  <h4><i class="fa fa-map-marker mgk"></i>Location</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+
+                <center><a href="animal_details.html" type="button" class="mg-10 btn btn-min-block">ANIMAL DETAILS</a></center>
+
+
+              </div>
+            </div>
+        <div class="col-md-4">
+              <div class="thumbnail">
+                <img src="img/img-team-1.jpg" class="img-responsive" alt="Image">
+                <div class="caption">
+                  <h4><a href="#">Animal1</a></h4>
+                  <h4><i class="fa fa-map-marker mgk"></i>Location</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+
+                <center><a href="animal_details.html" type="button" class="mg-10 btn btn-min-block">ANIMAL DETAILS</a></center>
+
+
+              </div>
+            </div>
+    </div>
+</div>
+
+<footer class="footer bg-white">
+
+    <!-- Footer Widget Section -->
+    <div class="footer-widget-section black">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4 footer-block">
+                    <div class="footer-widget widget_text">
+                        <div class="footer-logo">
+                            <a href="#"><img src="img/LOGO1.png" width="100%" height="100%" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4" style="margin-top: -120px;">
+                        <ul style="font-size:25px;" class="list-inline social-links">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                        <h4>contact@wildpaw.com</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- .footer -->
+
+</div>
+<!-- .content-wrapper -->
+</div>
+<!-- .offcanvas-pusher -->
+
+<div class="uc-mobile-menu uc-mobile-menu-effect">
+    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
+            id="uc-mobile-menu-close-btn">&times;</button>
+    <div>
+        <div>
+            <ul id="menu">
+                <li><a href="index.html">How It Works</a></li>
+                <li><a href="sighting.html">Sighting</a></li>
+                <li><a href="searchanimal.html">Animals</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="account.html">Account Settings</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- .uc-mobile-menu -->
+</div>
+<!-- #main-wrapper -->
+
+
+<!-- Script -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/mobile-menu.js"></script>
+<script src="js/flexSlider/jquery.flexslider-min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
